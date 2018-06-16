@@ -2,7 +2,7 @@
 
 namespace Gliterd\BackblazeB2;
 
-use BackblazeB2\Client as BackblazeClient;
+use ChrisWhite\B2\Client;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\ServiceProvider;
 use League\Flysystem\Filesystem;
